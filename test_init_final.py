@@ -1435,7 +1435,7 @@ while True:
 						
 
 								await JointheVC(voice_channel, channel)
-								await client.get_channel(msg.channel.id).send('< 거래처 [' + client.get_channel(voice_channel.id).name + '] 이동완료>', tts=False)
+								await client.get_channel(msg.channel.id).send('< ' + client.get_channel(voice_channel.id).name + ' 으로 이동완료 >', tts=False)
 			
 			################ 저장된 정보 초기화 ################
 						
