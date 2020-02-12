@@ -980,7 +980,7 @@ while True:
 
 							embed = discord.Embed(
 									title = ' 👱 ' + SearchID + ' 안내 ',
-									description= '```' + SearchID + ' 외국인단가는 ' + result + '```',
+									description= '**```css\n' + SearchID + ' 외국인단가는 ' + result + '```**',
 									color=0xfff000
 									)
 							await client.get_channel(msg.channel.id).send(embed=embed, tts=False)
@@ -1920,7 +1920,7 @@ while True:
 
 					embed1 = discord.Embed(
 							title = ' 👱 ' + SearchID + ' 안내 ',
-							description= '```' + SearchID + ' 외국인단가는 ' + result + '```',
+							description= '**```css\n' + SearchID + ' 외국인단가는 ' + result + '```**',
 							color=0xFFF000
 							)
 					embed2 = discord.Embed(
